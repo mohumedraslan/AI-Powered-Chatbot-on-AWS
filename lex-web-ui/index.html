@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>CloudMateBot</title>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1048.0.min.js"></script>
+  <script src="app.js"></script>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f8f9fa; }
+    #chatbox { width: 100%; max-width: 600px; margin: auto; }
+    .bubble { padding: 10px; border-radius: 10px; margin: 10px 0; }
+    .user { background: #d1e7dd; text-align: right; }
+    .bot { background: #e2e3e5; text-align: left; }
+    input[type="text"] { width: 80%; padding: 10px; }
+    button { padding: 10px; }
+  </style>
+</head>
+<body>
+  <div id="chatbox">
+    <div id="chat"></div>
+    <input type="text" id="message" placeholder="Ask something..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</body>
+</html>
