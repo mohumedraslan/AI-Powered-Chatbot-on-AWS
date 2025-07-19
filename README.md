@@ -41,7 +41,7 @@ A fully serverless, AI-powered chatbot that handles real user requests such as p
 
 ### 🛠️ Prerequisites
 
-- AWS Account
+- AWS Account 
 - IAM role for Lambda with `dynamodb:PutItem`
 - Lex V2 bot deployed with intents and Lambda attached
 - DynamoDB table `ChatbotInteractions`
